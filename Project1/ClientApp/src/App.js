@@ -10,7 +10,8 @@ import './custom.css'
 export default class App extends Component {
   static displayName = App.name;
 
-  render () {
+    render() {
+        console.log('Test!');
     return (
       <Layout>
         <Route exact path='/' component={Home} />
